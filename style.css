@@ -68,3 +68,13 @@ a {
 .article:hover {
     color: fuchsia;
 }
+
+#picture {
+    transition: transform .2s;
+    border: 10px solid #d754ff;
+    border-radius: 50%;
+}
+
+#picture:hover {
+    transform: scale(0.9);
+}
